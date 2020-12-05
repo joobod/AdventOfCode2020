@@ -9,7 +9,7 @@ namespace Day4
             string[] lines =  System.IO.File.ReadAllLines(@"C:\Users\Johannes\Documents\0\AdventOfCode\day4input.txt");
             PassportControl pc = new PassportControl();
             int passportStartIndex = 0;
-            int amount = 0, totAmount = 0;
+            int amount = 1, totAmount = 0;
             for(int i = 0; i < lines.Length; i++)
             {
                 if(lines[i] == "")
